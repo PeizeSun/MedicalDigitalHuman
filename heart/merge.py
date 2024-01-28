@@ -28,7 +28,7 @@ def merge_obj_files(file_list, output_file):
         f.writelines(vertices)
         f.writelines(faces)
 
-folder_path = 'parts'
+folder_path = 'heart/parts'
 files_to_merge = []
 for file_name in os.listdir(folder_path):
     files_to_merge.append(os.path.join(folder_path, file_name))
